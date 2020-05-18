@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF"
+    tools:context=".EdukasiActivity"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rlAnother" >
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_below="@id/imageView"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terdapat berbagai cara untuk mencegah daripada Corona Virus Disease - 19 yaitu di antaranya adalah sebagai berikut."
+
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_below="@id/title"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/rl_edukasi"
+
+
+                >
+
+
+                <ImageView
+
+                    android:id="@+id/IvCegah"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cegah"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tips Etika ketika Batuk dan Bersin"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_below="@id/IvCegah"
+                    android:layout_marginTop="-120dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/description2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:text="Ketika kita sedang batuk ataupun bersin di tempat Umum, sebaiknya ikuti tips dari kami ya Sobat Sehat Cerdas"
+                    android:textSize="14dp"
+                    android:textColor="#000000"
+                    android:layout_below="@id/title2"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/IvBatuk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/description2"
+                    android:src="@drawable/batuk"
+                    android:layout_marginTop="-150dp"
+                    >
+
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tips Cara Mencuci Tangan"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_below="@id/IvBatuk"
+                    android:layout_marginTop="-120dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/description3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cara mencuci tangan yang baik dan benar dengan 6 langkah untuk mencegah Covid-19"
+                    android:textSize="14dp"
+                    android:textColor="#000000"
+                    android:layout_below="@id/title3"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/cuciTangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/description3"
+                    android:src="@drawable/cucitangan"
+                    android:layout_marginTop="-150dp"
+                    >
+                </ImageView>
+
+
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edukasi tentang pemakaian Masker by World Health Organization"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_below="@id/cuciTangan"
+                    android:layout_marginTop="-120dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/description4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cara penggunaan masker yang baik dan benar agar bisa efektif dalam pencegahan penularan Covid-19"
+                    android:textSize="14dp"
+                    android:textColor="#000000"
+                    android:layout_below="@id/title4"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/caramasker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/description4"
+                    android:src="@drawable/caramasker"
+                    android:layout_marginTop="-150dp"
+                    >
+
+
+                </ImageView>
+
+
+
+                <TextView
+                    android:id="@+id/title5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perbedaan status PDP dan ODP "
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_below="@id/caramasker"
+                    android:layout_marginTop="-120dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/description5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:text="Yuk kita pahami untuk perbedaan status antara Pasien Dalam Pengawasan dan Orang Dalam Pemantauan"
+                    android:textSize="14dp"
+                    android:textColor="#000000"
+                    android:layout_below="@id/title5"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/description5"
+                    android:src="@drawable/pdpodp"
+                    android:layout_marginTop="-150dp"
+                    >
+
+
+                </ImageView>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

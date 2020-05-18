@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlAnother" >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_below="@id/imageView"
+            android:layout_marginTop="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Di bawah ini merupakan Data Persebaran Covid-19 di Indonesia secara Realtime"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:layout_below="@id/title"
+            android:layout_marginTop="5dp"
+            />
+    </RelativeLayout>
+
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/rlAnother"
+    android:layout_marginTop="22dp">
+
+    <TextView
+        android:id="@+id/sembuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Sembuh : "
+        android:textColor="#006e09"
+        android:textSize="19dp"
+        />
+    <TextView
+        android:id="@+id/meninggal"
+        android:layout_below="@id/sembuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Meninggal : "
+        android:textColor="#960300"
+        android:textSize="19dp"
+        />
+
+     <TextView
+            android:id="@+id/konfirmasi"
+            android:layout_below="@id/meninggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Terkonfirmasi : "
+            android:textColor="#FF5722"
+            android:textSize="19dp"
+
+            />
+
+  <TextView
+            android:id="@+id/perawatan"
+            android:layout_below="@id/konfirmasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Perawatan : "
+      android:textColor="#3F51B5"
+            android:textSize="19dp"
+
+            />
+
+
+
+    <TextView
+        android:id="@+id/totalRecovered"
+        android:layout_toRightOf="@id/sembuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="999999"
+        android:textAlignment="center"
+        android:textColor="#006e09"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239"
+        />
+
+    <TextView
+        android:id="@+id/totalDeaths"
+        android:layout_below="@id/totalRecovered"
+        android:layout_toRightOf="@id/meninggal"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="999999"
+        android:textAlignment="center"
+        android:textColor="#960300"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239"
+        />
+
+    <TextView
+        android:id="@+id/totalConfirmed"
+        android:layout_below="@id/totalDeaths"
+        android:layout_toRightOf="@id/konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="999999"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:id="@+id/totalPerawatan"
+        android:layout_below="@id/totalConfirmed"
+        android:layout_toRightOf="@id/perawatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="999999"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="19dp"
+
+        />
+</RelativeLayout>
+
+
+</RelativeLayout>

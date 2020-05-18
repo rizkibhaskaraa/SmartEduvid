@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "833978122266",
+    "firebase_url": "https://smart-eduvid.firebaseio.com",
+    "project_id": "smart-eduvid",
+    "storage_bucket": "smart-eduvid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833978122266:android:cd811eb878e835fa7b11a3",
+        "android_client_info": {
+          "package_name": "com.example.smarteduvid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833978122266-07f8n9aag87ui9jrdunlbmsql9ufs8ic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smarteduvid",
+            "certificate_hash": "a67792821e3d9a8a81e69ca61e898fe4da77b424"
+          }
+        },
+        {
+          "client_id": "833978122266-jcek91om603efasvujin8fpr5scljhst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0AyCjYfDQHBVNHIfjgyvEL47tX9Vw3JY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833978122266-jcek91om603efasvujin8fpr5scljhst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
